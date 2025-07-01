@@ -1,0 +1,28 @@
+📝 CONSIGNA – Patrón Factory
+
+Una aplicación de mensajería permite enviar notificaciones por distintos canales:
+📧 Email, 📱 SMS y 📢 Notificación push.
+
+Queremos un sistema que:
+
+    Permita al usuario elegir un tipo de notificación en tiempo de ejecución.
+
+    Oculte la lógica de creación de los objetos detrás de una fábrica.
+
+    Use una interfaz común Notificacion con un método enviar(mensaje: str).
+
+📦 Estructura esperada:
+
+    Una interfaz Notificacion con un método enviar.
+
+    Clases concretas:
+
+        NotificacionEmail
+
+        NotificacionSMS
+
+        NotificacionPush
+
+    Una clase NotificacionFactory que tenga un método crear_notificacion(tipo: str).
+
+    Un script principal que use la factory para enviar un mensaje.
