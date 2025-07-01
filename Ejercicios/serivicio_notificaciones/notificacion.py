@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-class Notificaion(ABC):
+class Notificacion(ABC):
     @abstractmethod
-    def envia(self,notificaion):
+    def enviar(self,notificacion):
         pass 

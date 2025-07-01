@@ -1,9 +1,10 @@
-from notificacion import Notificaion
+from notificacion import Notificacion
 
-class NotificacionSMS (Notificaion):
-    def __init__(self,telefono: int):
+class NotificacionSMS (Notificacion):
+    def __init__(self,telefono: str):
         self.telefono = telefono
     
-    def enviar ():
-        print("Enviando notificaion al numero {self.telefono}")
+    def enviar(self, mensaje):
+        print(f"[TELEFONO] Enviando al numero {self.telefono}: {mensaje}")
+        
         

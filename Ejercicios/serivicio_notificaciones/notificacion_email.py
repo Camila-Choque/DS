@@ -1,9 +1,9 @@
-from notificacion import Notificaion
+from notificacion import Notificacion
 
-class NotificacionEmail (Notificaion):
+class NotificacionEmail (Notificacion):
     def __init__(self,correo: str):
         self.correo = correo
     
-    def enviar ():
-        print("Enviando notificaion al correo {self.correo}")
+    def enviar(self, mensaje):
+        print(f"[EMAIL] Enviando a {self.correo}: {mensaje}")
         

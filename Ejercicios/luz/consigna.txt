@@ -1,0 +1,22 @@
+📝 Ejercicio (Command): Control Remoto para una Luz
+
+Una casa tiene una luz que puede encenderse y apagarse. Queremos implementar un control remoto que pueda:
+
+    Encender la luz.
+
+    Apagar la luz.
+
+    Deshacer la última acción.
+
+Usaremos el patrón Command para encapsular las operaciones de encender y apagar.
+Detalles del ejercicio:
+
+    Crea una clase Luz con métodos encender() y apagar() que impriman el estado actual.
+
+    Define una interfaz Comando con el método ejecutar().
+
+    Crea las clases concretas EncenderLuzCommand y ApagarLuzCommand que implementen Comando y ejecuten las acciones sobre la luz.
+
+    Implementa una clase ControlRemoto que tenga métodos para asignar comandos y ejecutarlos.
+
+    Añade la funcionalidad de "deshacer" la última acción ejecutada.
