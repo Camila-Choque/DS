@@ -1,3 +1,5 @@
+![imagen](https://github.com/user-attachments/assets/95d87f47-cb1f-4a0a-b07b-1b1765acc699)
+
 # DISEÑO DE SISTEMAS
 # 👨‍💻 Informacion Personal
 - Nombre y Apellido: Camila Choque
